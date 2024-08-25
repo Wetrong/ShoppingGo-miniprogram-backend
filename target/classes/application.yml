@@ -1,0 +1,13 @@
+server:
+  port: 80
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: utf-8
+  spring:
+    mvc:
+     view:
+       prefix: /WEB-INF/views/
+       suffix: .jsp
+    resources:
+      static-locations: file:static\images\
